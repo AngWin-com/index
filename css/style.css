@@ -15,7 +15,7 @@ nav {
 
 #nav {
   background-color: #fff;
-  padding: 20px 0px;
+  padding: 1% 0px;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -38,6 +38,7 @@ nav {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
+  letter-spacing: 1px;
 }
 #nav .navItems li {
   list-style: none;
@@ -141,6 +142,7 @@ nav {
           justify-content: center;
   -webkit-box-align: center;
           align-items: center;
+  letter-spacing: 0.5px;
 }
 #sectionAbout .ContentAbout .textAbout .aw {
   color: #1eaa39;
@@ -192,6 +194,7 @@ nav {
 }
 #sectionService .contentService .textService {
   padding-top: 4%;
+  letter-spacing: 0.5px
 }
 #sectionService .contentService .textService .br {
   padding-top: 1.5%;
@@ -276,7 +279,7 @@ nav {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border: solid 2px #1eaa39;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   margin-top: 15%;
 }
 #sectionContact .contentContact .emailBtn:hover {
