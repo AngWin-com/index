@@ -51,7 +51,6 @@ nav {
   font-weight: 800;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  text-align: center;
 }
 #nav .navItems li a:hover, #nav .navItems li a:visited:hover {
   color: #1eaa39;
@@ -282,6 +281,7 @@ nav {
   border: solid 2px #1eaa39;
   letter-spacing: 0.5px;
   margin-top: 15%;
+  outline: none;
 }
 #sectionContact .contentContact .emailBtn:hover {
   background-color: #fff;
