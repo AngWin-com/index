@@ -1,0 +1,210 @@
+@mixin flexCenter
+  display: flex
+  justify-content: center
+  align-items: center
+  
+@mixin size($w,$h:$w)
+  width: $w
+  height: $h
+
+*
+  // border: solid 1px black
+
+html,body
+  font-family: 'Varela Round'
+
+
+nav
+  position: sticky
+  top: 0
+  left: 0
+  z-index: 1
+  +size(100%,auto)
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2)
+#nav
+  background-color: #fff
+  padding: 20px 0px
+  display: flex
+  align-items: center
+  .logo
+    display: flex
+    justify-content: center
+    img
+      +size(30vmin,auto)
+      max-width: 230px
+      max-height: 45px
+  .navItems
+    display: flex
+    justify-content: space-around
+    margin-top: 10px
+    li
+      list-style: none
+      padding-right: 10%
+      a,a:visited
+        color: #4f4f4f
+        font-size: 2.6vmin
+        text-decoration: none
+        font-weight: 800
+        transition: 0.5s
+        &:hover
+          color: #1eaa39
+      
+#header
+.headerBg
+  position: relative
+  img
+    +size(100vw,auto)
+.AngwinCloud
+  position: absolute
+  +size(100%,100%)
+  padding-top: 6%
+  padding-left: 13%
+  animation: cloudFloat 4s infinite
+  animation-timing-function: ease-in
+  
+@keyframes cloudFloat
+  0%
+    transform: translate(0%,0%)
+  50%
+    transform: translate(0%,2%)
+  100%
+    transform: translate(0%,0%)
+    
+
+#sectionAbout  
+  background-color: #f7f0e7
+  .titleAbout
+    padding-left: 20px
+    img
+      +size(35vmin,auto)
+  .ContentAbout
+    display: flex
+    margin-top: 6%
+    .logoAbout
+      display: flex
+      justify-content: center
+      align-items: center
+      img
+        +size(120%,auto)
+    .textAbout
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      .aw 
+        color: #1eaa39
+        font-size: 4vmin
+      .br
+        padding-top: 1.5%
+      h3
+        font-size: 2.5vmin
+        color: #493922
+        font-weight: 600
+        line-height: 3.5vmin
+  .colorPencil
+    margin-top: -15%
+    img
+      +size(100%,auto)
+
+#sectionService
+  background-color: #d8d0c5
+  padding-bottom: 3%
+  .titleService
+    padding-left: 20px
+    img
+      +size(35vmin,auto)
+  .contentService
+    display: flex
+    justify-content: center
+    align-items: center
+    
+    .notebook
+      padding-top: 4%
+      img
+        +size(130%,auto)
+        margin-left: -35%
+        
+    .textService
+      padding-top: 4%
+      .br
+        padding-top: 1.5%
+      h3
+        font-size: 2.5vmin
+        font-weight: 600
+        color: #493922
+        line-height: 3.5vmin
+  .billboardArea
+    margin-top: 3%
+    .billboard
+      position: relative
+      img
+        +size(100%,auto)
+
+        
+#sectionContact
+  background-image: url(https://i.imgur.com/0siMbtu.png)
+  background-size: cover
+  background-repeat: repeat-y
+  padding-bottom: 4%
+  .titleContact
+    padding-left: 20px
+    img
+      +size(35vmin,auto)
+  .contentContact
+    +flexCenter
+    flex-direction: column
+    .message
+      +flexCenter
+      padding-top: 2%
+      padding-bottom: 6%
+      img
+        +size(80%,auto)
+    .information
+      line-height: 4vmin
+
+      span
+        color: #493922
+        font-weight: 600
+        font-size: 2.3vmin
+        letter-spacing: 0.5px
+      .icon
+        padding: 0px 10px
+      span.fas.fa-map-marker-alt.icon
+        margin: 0px 2.5px
+        
+        
+
+    .emailBtn
+      background-color: #1eaa39
+      color: #fff
+      font-size: 2.5vmin
+      border-radius: 15px
+      padding: 15px 30px
+      box-shadow: 0px 5px 10px rgba(0,0,0,0.3)
+      transition: 0.5s
+      border: solid 2px #1eaa39
+      letter-spacing: 1px
+      margin-top: 15%
+      &:hover
+        background-color: #fff
+        color:  #1eaa39
+        transform: translate(0px,3px)
+        border: solid 2px #1eaa39
+        box-shadow: 0px 0px 0px rgba(0,0,0,0.3)
+      
+        
+      
+#footer
+  background-color: #fff
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  
+  img
+    +size(25vmin,auto)
+    padding-top: 3%
+  p
+    padding-top: 3%
+    color: #565656
+    font-size: 1.6vmin

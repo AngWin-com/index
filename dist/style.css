@@ -1,0 +1,312 @@
+html, body {
+  font-family: "Varela Round";
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#nav {
+  background-color: #fff;
+  padding: 20px 0px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+#nav .logo {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+#nav .logo img {
+  width: 30vmin;
+  height: auto;
+  max-width: 230px;
+  max-height: 45px;
+}
+#nav .navItems {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+#nav .navItems li {
+  list-style: none;
+  padding-right: 10%;
+}
+#nav .navItems li a, #nav .navItems li a:visited {
+  color: #4f4f4f;
+  font-size: 2.6vmin;
+  text-decoration: none;
+  font-weight: 800;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#nav .navItems li a:hover, #nav .navItems li a:visited:hover {
+  color: #1eaa39;
+}
+
+.headerBg {
+  position: relative;
+}
+.headerBg img {
+  width: 100vw;
+  height: auto;
+}
+
+.AngwinCloud {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-top: 6%;
+  padding-left: 13%;
+  -webkit-animation: cloudFloat 4s infinite;
+          animation: cloudFloat 4s infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes cloudFloat {
+  0% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+  50% {
+    -webkit-transform: translate(0%, 2%);
+            transform: translate(0%, 2%);
+  }
+  100% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+
+@keyframes cloudFloat {
+  0% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+  50% {
+    -webkit-transform: translate(0%, 2%);
+            transform: translate(0%, 2%);
+  }
+  100% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+#sectionAbout {
+  background-color: #f7f0e7;
+}
+#sectionAbout .titleAbout {
+  padding-left: 20px;
+}
+#sectionAbout .titleAbout img {
+  width: 35vmin;
+  height: auto;
+}
+#sectionAbout .ContentAbout {
+  display: -webkit-box;
+  display: flex;
+  margin-top: 6%;
+}
+#sectionAbout .ContentAbout .logoAbout {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+#sectionAbout .ContentAbout .logoAbout img {
+  width: 120%;
+  height: auto;
+}
+#sectionAbout .ContentAbout .textAbout {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+#sectionAbout .ContentAbout .textAbout .aw {
+  color: #1eaa39;
+  font-size: 4vmin;
+}
+#sectionAbout .ContentAbout .textAbout .br {
+  padding-top: 1.5%;
+}
+#sectionAbout .ContentAbout .textAbout h3 {
+  font-size: 2.5vmin;
+  color: #493922;
+  font-weight: 600;
+  line-height: 3.5vmin;
+}
+#sectionAbout .colorPencil {
+  margin-top: -15%;
+}
+#sectionAbout .colorPencil img {
+  width: 100%;
+  height: auto;
+}
+
+#sectionService {
+  background-color: #d8d0c5;
+  padding-bottom: 3%;
+}
+#sectionService .titleService {
+  padding-left: 20px;
+}
+#sectionService .titleService img {
+  width: 35vmin;
+  height: auto;
+}
+#sectionService .contentService {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+#sectionService .contentService .notebook {
+  padding-top: 4%;
+}
+#sectionService .contentService .notebook img {
+  width: 130%;
+  height: auto;
+  margin-left: -35%;
+}
+#sectionService .contentService .textService {
+  padding-top: 4%;
+}
+#sectionService .contentService .textService .br {
+  padding-top: 1.5%;
+}
+#sectionService .contentService .textService h3 {
+  font-size: 2.5vmin;
+  font-weight: 600;
+  color: #493922;
+  line-height: 3.5vmin;
+}
+#sectionService .billboardArea {
+  margin-top: 3%;
+}
+#sectionService .billboardArea .billboard {
+  position: relative;
+}
+#sectionService .billboardArea .billboard img {
+  width: 100%;
+  height: auto;
+}
+
+#sectionContact {
+  background-image: url(https://i.imgur.com/0siMbtu.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  padding-bottom: 4%;
+}
+#sectionContact .titleContact {
+  padding-left: 20px;
+}
+#sectionContact .titleContact img {
+  width: 35vmin;
+  height: auto;
+}
+#sectionContact .contentContact {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+#sectionContact .contentContact .message {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  padding-top: 2%;
+  padding-bottom: 6%;
+}
+#sectionContact .contentContact .message img {
+  width: 80%;
+  height: auto;
+}
+#sectionContact .contentContact .information {
+  line-height: 4vmin;
+}
+#sectionContact .contentContact .information span {
+  color: #493922;
+  font-weight: 600;
+  font-size: 2.3vmin;
+  letter-spacing: 0.5px;
+}
+#sectionContact .contentContact .information .icon {
+  padding: 0px 10px;
+}
+#sectionContact .contentContact .information span.fas.fa-map-marker-alt.icon {
+  margin: 0px 2.5px;
+}
+#sectionContact .contentContact .emailBtn {
+  background-color: #1eaa39;
+  color: #fff;
+  font-size: 2.5vmin;
+  border-radius: 15px;
+  padding: 15px 30px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: solid 2px #1eaa39;
+  letter-spacing: 1px;
+  margin-top: 15%;
+}
+#sectionContact .contentContact .emailBtn:hover {
+  background-color: #fff;
+  color: #1eaa39;
+  -webkit-transform: translate(0px, 3px);
+          transform: translate(0px, 3px);
+  border: solid 2px #1eaa39;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+#footer {
+  background-color: #fff;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+#footer img {
+  width: 25vmin;
+  height: auto;
+  padding-top: 3%;
+}
+#footer p {
+  padding-top: 3%;
+  color: #565656;
+  font-size: 1.6vmin;
+}
