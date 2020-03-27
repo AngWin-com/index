@@ -36,7 +36,7 @@ nav {
 #nav .navItems {
   display: -webkit-box;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   -ms-align-items: center;
   align-items: center;
   margin-top: 10px;
@@ -44,7 +44,7 @@ nav {
 }
 #nav .navItems li {
   list-style: none;
-  padding-right: 10%;
+  padding-right: 5vmin;
 }
 #nav .navItems li a, #nav .navItems li a:visited {
   color: #4f4f4f;
