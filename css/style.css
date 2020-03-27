@@ -50,6 +50,7 @@ nav {
   font-weight: 800;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  text-align: center;
 }
 #nav .navItems li a:hover, #nav .navItems li a:visited:hover {
   color: #1eaa39;
