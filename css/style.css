@@ -37,6 +37,8 @@ nav {
   display: -webkit-box;
   display: flex;
   justify-content: space-around;
+  -ms-align-items: center;
+  align-items: center;
   margin-top: 10px;
   letter-spacing: 1px;
 }
