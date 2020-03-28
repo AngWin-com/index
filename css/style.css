@@ -73,6 +73,7 @@ nav {
           animation: cloudFloat 4s infinite;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
+  left: 0;
 }
 
 .AngwinCloud img {
