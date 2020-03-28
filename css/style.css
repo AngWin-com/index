@@ -60,9 +60,11 @@ nav {
   color: #1eaa39;
 }
 
-.headerBg {
+
+#header {
   position: relative;
 }
+
 .headerBg img {
   width: 100%;
   height: auto;
@@ -70,8 +72,9 @@ nav {
 
 .AngwinCloud {
   position: absolute;
+  top: 0;
+  left: 0;
   padding-top: 6%;
-  padding-block-start: 6%;
   -webkit-animation: cloudFloat 4s infinite;
           animation: cloudFloat 4s infinite;
   -webkit-animation-timing-function: ease-in;
