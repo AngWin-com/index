@@ -38,8 +38,8 @@ nav {
 #nav .logo img {
   width: 30vmin;
   height: auto;
-  max-width: 230px;
-  max-height: 45px;
+  max-width: 300px;
+  max-height: 80px;
 }
 #nav .navItems {
   display: -webkit-box;
