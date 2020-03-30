@@ -159,6 +159,7 @@ nav {
   -webkit-box-align: center;
           align-items: center;
   letter-spacing: 0.5px;
+  padding-left: 5%;
 }
 #sectionAbout .ContentAbout .textAbout .aw {
   color: #1eaa39;
