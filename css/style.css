@@ -81,8 +81,8 @@ nav {
   top: 0;
   left: 0;
   padding-top: 6%;
-  -webkit-animation: cloudFloat 4s infinite;
-          animation: cloudFloat 4s infinite;
+  -webkit-animation: cloudFloat 3s infinite;
+          animation: cloudFloat 3s infinite;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
 }
@@ -98,8 +98,8 @@ nav {
             transform: translate(0%, 0%);
   }
   50% {
-    -webkit-transform: translate(0%, 2%);
-            transform: translate(0%, 2%);
+    -webkit-transform: translate(0%, 5%);
+            transform: translate(0%, 5%);
   }
   100% {
     -webkit-transform: translate(0%, 0%);
@@ -123,9 +123,15 @@ nav {
 }
 #sectionAbout {
   background-color: #f7f0e7;
+  position: relative;
 }
 #sectionAbout .titleAbout {
   padding-left: 20px;
+}
+#About{
+  position: absolute;
+  top: -12%;
+  height: 12%;
 }
 #sectionAbout .titleAbout img {
   width: 35vmin;
@@ -185,6 +191,12 @@ nav {
 #sectionService {
   background-color: #d8d0c5;
   padding-bottom: 3%;
+  position: relative;
+}
+#Service {
+  position: absolute;
+  top: -9%;
+  height: 9%;
 }
 #sectionService .titleService {
   padding-left: 20px;
@@ -238,6 +250,12 @@ nav {
   background-size: cover;
   background-repeat: repeat-y;
   padding-bottom: 4%;
+  position: relative;
+}
+#Contact{
+  position: absolute;
+  top: -14%;
+  height: 14%;
 }
 #sectionContact .titleContact {
   padding-left: 20px;
