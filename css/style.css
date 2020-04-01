@@ -130,8 +130,8 @@ nav {
 }
 #About{
   position: absolute;
-  top: -14%;
-  height: 14%;
+  top: -9%;
+  height: 9%;
 }
 #sectionAbout .titleAbout img {
   width: 35vmin;
@@ -195,8 +195,8 @@ nav {
 }
 #Service {
   position: absolute;
-  top: -10%;
-  height: 10%;
+  top: -9%;
+  height: 9%;
 }
 #sectionService .titleService {
   padding-left: 20px;
@@ -254,8 +254,8 @@ nav {
 }
 #Contact{
   position: absolute;
-  top: -13%;
-  height: 13%;
+  top: -9%;
+  height: 9%;
 }
 #sectionContact .titleContact {
   padding-left: 20px;
